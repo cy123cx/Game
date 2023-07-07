@@ -1,0 +1,152 @@
+body {
+    background:url(./28ae5ee1d925d.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    /* border: 2px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    opacity: 0.9; /* 设置透明度为90% */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 按钮的基本样式 */
+.cute-button {
+    background-color: #99e4de;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 鼠标悬停时的样式 */
+.cute-button:hover {
+    background-color: #86c8e9;
+}
+
+/* 鼠标点击时的样式 */
+.cute-button:active {
+    background-color: #228cca;
+}
+
+.image {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: transparent;
+}
+
+
+.correct1 {
+    background-image: url(./二次元.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct2 {
+    background-image: url(./军人.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct3 {
+    background-image: url(./农夫.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct4 {
+    background-image: url(./售货员.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct5 {
+    background-image: url(./妈妈1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct6 {
+    background-image: url(./建筑工人.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct7 {
+    background-image: url(./播客.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct8 {
+    background-image: url(./时尚美女.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct9 {
+    background-image: url(./洗发.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct10 {
+    background-image: url(./游戏主播.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct11 {
+    background-image: url(./空姐.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct12 {
+    background-image: url(./航天员\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.correct13 {
+    background-image: url(./魔术师.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#startButton {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
